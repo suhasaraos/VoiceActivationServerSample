@@ -1,0 +1,15 @@
+﻿{
+    "compilerOptions": {
+        "target": "ES6", // Output ECMAScript version
+        "module": "commonjs", // Module system
+        "outDir": "./wwwroot/js", // Output directory for compiled JavaScript
+        "rootDir": "./wwwroot/ts", // Source directory for TypeScript files
+        "strict": true // Enable all strict type-checking options
+    },
+    "include": [
+        "wwwroot/ts/**/*" // Include all TypeScript files in wwwroot/ts
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
